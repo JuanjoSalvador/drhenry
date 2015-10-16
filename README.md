@@ -1,7 +1,7 @@
 # DrHenry
 ### Generador de posts para Jekyll
 
-[![Gem Version](https://badge.fury.io/rb/drhenry.svg)](https://badge.fury.io/rb/drhenry)
+[![Gem Version](https://badge.fury.io/rb/drhenry.svg)](https://badge.fury.io/rb/drhenry) [![Code Climate](https://codeclimate.com/repos/562164936956803bba003dca/badges/22d468931d2d29f836cd/gpa.svg)](https://codeclimate.com/repos/562164936956803bba003dca/feed)
 
 Llevo algún tiempo usando Jekyll. Me encanta por muchas razones, una de ellas es su simplicidad y facilidad de uso. Pero entre tanta simpleza, he echado de menos una forma de generar artículos para escribirlos y colgarlos directamente.
 
