@@ -14,7 +14,7 @@ Para instalar *DrHenry* en cualquier distribución GNU/Linux, necesitaremos las 
 * Ruby (2.1.0 en adelante)
 * RubyGems
 
-E instalar la gema `drhenry` desde RubyGems.org.
+E instalar la gema `drhenry` desde [RubyGems.org](https://rubygems.org/gems/drhenry).
 
 #### Debian/Ubuntu
 
@@ -31,3 +31,7 @@ DrHenry es muy sencillo de utilizar. Se ejecuta desde la consola de comandos, to
 Con esto generaremos un archivo MarkDown en la ubicación actual, siguiendo la siguiente nomenclatura `YYYY-mm-dd-titulo.md`. En este caso, `2015-10-16-Hello-world!.md`.
 
 Lo abrimos con nuestro editor de texto favorito, y tenemos dentro la plantilla lista para escribir nuestro post y publicarlo.
+
+### Licencia
+
+Ver [LICENSE](https://github.com/JuanjoSalvador/drhenry/blob/master/LICENSE)
