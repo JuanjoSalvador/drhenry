@@ -7,7 +7,7 @@ Llevo algún tiempo usando Jekyll. Me encanta por muchas razones, una de ellas e
 
 Por eso he creado **DrHenry**, el generador de posts (artículos) para [**Jekyll**](https://github.com/jekyll/jekyll).
 
-*Freak tip: Jekyll es el apellido del Dr Henry Jekyll, más conocido como Mr Edward Hyde.*
+*Freak tip: Henry es el nombre de pila del Dr Jekyll, más conocido como Mr Hyde, personaje de la homónima novela.*
 
 ### Instalar DrHenry
 
