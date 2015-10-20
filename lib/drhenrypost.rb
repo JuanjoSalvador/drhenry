@@ -14,11 +14,18 @@ class DrHenryPost
   def name
     string = []
 
-    ARGV.each do |a|
-      string.push(a)
+    if ARGV.empty?
+      puts "You have not provided a title for the post. Please introduce a title."
+      print ">: "
+      STDOUT.flush
+      joinName = gets.chomp
+    else
+      ARGV.each do |a|
+        string.push(a)
+      end
+			joinName = string.join('-')
     end
 
-    joinName = string.join('-')
     return joinName + ".md"
   end
 

@@ -2,7 +2,7 @@
 
 require 'drhenrypost'
 
-post = DrHenryPost.new
-post.create
+  post = DrHenryPost.new
+  post.create
 
-puts "New post created."
+  puts "New post created."
