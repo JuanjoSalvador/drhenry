@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'drhenrypost'
+
+  post = DrHenryPost.new
+	
+	title = post.name
+
+  #post.create(title)
+
+  #puts "New post created."

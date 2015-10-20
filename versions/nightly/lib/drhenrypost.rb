@@ -23,15 +23,14 @@ class DrHenryPost
       ARGV.each do |a|
         string.push(a)
       end
-			joinName = string.join('-')
+		joinName = string.join('-')
     end
 
     return joinName + ".md"
   end
 
   # Método que crea el archivo concatenando la fecha y el nombre generados por date y name
-  def create
-    filename = date + "-" + name
+  def create(filename)
 
     output = File.new("#{filename}", "w")
     output.puts("---")

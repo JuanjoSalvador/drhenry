@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'drhenry'
-  s.version     = '0.3.0'
+  s.version     = '0.4.0-nightly'
   s.executables << 'drhenry'
   s.date        = '2015-10-20'
   s.summary     = "Dr Henry Jekyll!"
@@ -10,9 +10,4 @@ Gem::Specification.new do |s|
   s.files       = ["bin/drhenry", "lib/drhenrypost.rb"]
   s.homepage    = 'https://github.com/JuanjoSalvador/drhenry/'
   s.license     = 'MIT'
-
-# Dependencies
-
-  s.add_runtime_dependency = 'launchy' 
-
 end

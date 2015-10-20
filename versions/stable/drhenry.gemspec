@@ -10,9 +10,4 @@ Gem::Specification.new do |s|
   s.files       = ["bin/drhenry", "lib/drhenrypost.rb"]
   s.homepage    = 'https://github.com/JuanjoSalvador/drhenry/'
   s.license     = 'MIT'
-
-# Dependencies
-
-  s.add_runtime_dependency = 'launchy' 
-
 end
