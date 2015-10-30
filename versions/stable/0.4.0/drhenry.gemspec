@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name        = 'drhenry'
-  s.version     = '0.3.0'
+  s.version     = '0.4.0-current-stable'
   s.executables << 'drhenry'
   s.date        = '2015-10-20'
   s.summary     = "Dr Henry Jekyll!"
-  s.description = "Post generator for Jekyll. See more info in GutHub."
+  s.description = "Post generator for Jekyll. See more info in GitHub."
   s.authors     = ["Juanjo Salvador"]
   s.email       = 'juanjosalvador@openmailbox.org'
   s.files       = ["bin/drhenry", "lib/drhenrypost.rb"]

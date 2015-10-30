@@ -1,11 +1,13 @@
 #!/usr/bin/env ruby
 
-require 'drhenrypost'
+load 'test.rb'
 
-  post = DrHenryPost.new
+  post = Test.new
 	
 	name  = post.name
 	date  = post.date
 	title = post.title(name)
 	
-  	post.create(date, name, title)
+  	post.create(name, title)
+
+  #puts "New post created."

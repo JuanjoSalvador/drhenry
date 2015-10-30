@@ -1,41 +1,46 @@
 class DrHenryPost
 
-  # Variable global que setea el título
-  $title = ARGV.join(" ")
-
-  # Método que setea la fecha del post
+  # Gets today's date
   def date
     time = Time.new
     date = time.strftime("%Y-%m-%d")
     return date.to_s
   end
 
-  # Método que setea el nombre del archivo
+  # Sets post filename
   def name
     string = []
 
     if ARGV.empty?
       puts "You have not provided a title for the post. Please introduce a title."
-      print ">: "
+      print "> "
       STDOUT.flush
       joinName = gets.chomp
+	nameArray = joinName.split(' ')
+	  nameArray.each do |s|
+	    string.push(s)
+	  end	
     else
       ARGV.each do |a|
         string.push(a)
       end
-		joinName = string.join('-')
     end
 
-    return joinName + ".md"
+    joinName = string.join('-')
+    return joinName
   end
 
-  # Método que crea el archivo concatenando la fecha y el nombre generados por date y name
-  def create(filename)
+  # Sets post title (into the file)
+  def title(postName)
+    return postName.tr('-', ' ')    
+  end
 
-    output = File.new("#{filename}", "w")
+  # Creates the file
+  def create(date, filename, title)
+    output = File.new("#{date}-#{filename}.md", "w")
     output.puts("---")
     output.puts("layout: post # Sustituye el layout si lo usas uno diferente")
-    output.puts("title: " + "#{$title}" + " # Nombre generado automáticamente")
+    output.puts("title: " + "#{title}" + " # Nombre generado automáticamente")
     output.puts("---")
     output.close
   end

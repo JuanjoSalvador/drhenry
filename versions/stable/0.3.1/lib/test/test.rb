@@ -1,13 +1,11 @@
-class DrHenryPost
+class Test
 
-  # Gets today's date
   def date
     time = Time.new
     date = time.strftime("%Y-%m-%d")
     return date.to_s
   end
 
-  # Sets post filename
   def name
     string = []
 
@@ -30,13 +28,11 @@ class DrHenryPost
     return joinName
   end
 
-  # Sets post title (into the file)
   def title(postName)
     return postName.tr('-', ' ')    
   end
 
-  # Creates the file
-  def create(date, filename, title)
+  def create(filename, title)
     output = File.new("#{date}-#{filename}.md", "w")
     output.puts("---")
     output.puts("layout: post # Sustituye el layout si lo usas uno diferente")

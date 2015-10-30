@@ -1,0 +1,17 @@
+TO DO
+
+- Archivo de configuracion de la plantilla (que elementos se añaden)
+- Comandos (help, new, etc)
+- 
+
+DOING
+
+- 
+- 
+- 
+
+DONE
+
+- 
+- 
+- 

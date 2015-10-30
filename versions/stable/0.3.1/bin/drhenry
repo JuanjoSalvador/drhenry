@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 
-require 'drhenrypost'
+load 'lib/drhenrypost.rb'
 
   post = DrHenryPost.new
 	
 	title = post.name
-
-  #post.create(title)
+	date  = post.date
+  	post.create(title)
 
   #puts "New post created."
