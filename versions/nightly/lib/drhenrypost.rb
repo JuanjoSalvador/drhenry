@@ -32,7 +32,8 @@ class DrHenryPost
 
   # Sets post title (into the file)
   def title(postName)
-    return postName.tr('-', ' ')    
+    pn = postName.tr('-', ' ')
+    pn = pn.gsub(/[-!$%^&*()_+|~=`{}\[\]:";'<>?,.\/]/, '')
   end
 
   # Creates the file
